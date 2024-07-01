@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1719868489 source:c:\users\luis nm\desktop\intento\intento2\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<map>
+	"functions.h"
+	"test_gauss_jordan.h"
+
+1719868807 c:\users\luis nm\desktop\intento\intento2\functions.h
+	<vector>
+	<string>
+	<map>
+	"functions.cpp"
+
+1719868645 c:\users\luis nm\desktop\intento\intento2\functions.cpp
+	"functions.h"
+	<iostream>
+	<string>
+	<map>
+	<stack>
+	<sstream>
+	<cmath>
+	<cctype>
+	<stdexcept>
+	<regex>
+
+1719868827 c:\users\luis nm\desktop\intento\intento2\test_gauss_jordan.h
+	"test_gauss_jordan.cpp"
+
+1719868548 c:\users\luis nm\desktop\intento\intento2\test_gauss_jordan.cpp
+	"test_gauss_jordan.h"
+	<iostream>
+	<cmath>
+	<algorithm>
+
