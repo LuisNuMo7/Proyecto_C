@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1717728528 source:c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\expsymbol.cc
+	<stack>
+	<queue>
+	"enum_base.h"
+	"expsymbol.h"
+
+1717728527 c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\enum_base.h
+
+1717728530 c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\expsymbol.h
+
+1719873382 source:c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\infix2postfix.cc
+	<iostream>
+	<string>
+	<stack>
+	<queue>
+	<ctype.h>
+	<map>
+	<stdlib.h>
+	"enum_base.h"
+	"aritmetic_base.h"
+	"expsymbol.h"
+	"d_except.h"
+	"infix2postfix.h"
+
+1719544597 c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\aritmetic_base.h
+
+1717728525 c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\d_except.h
+	<sstream>
+	<string>
+
+1719870686 c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\infix2postfix.h
+
+1719842418 source:c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\main_analizador_aritmetico.cc
+	<iostream>
+	<string>
+	<stack>
+	<queue>
+	<map>
+	"enum_base.h"
+	"aritmetic_base.h"
+	"expsymbol.h"
+	"infix2postfix.h"
+	"postfixEval.h"
+	"aritmetic_expression_eval.h"
+	"d_except.h"
+
+1717729115 c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\postfixeval.h
+
+1719543319 c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\aritmetic_expression_eval.h
+
+1717728703 source:c:\users\deyvi\documents\i-2024\estructuras abstractas de datos y algoritmos para ingenierÍa\proyecto_analizadoraritmeticog2\proyectog2_b93171_b75473\postfixeval.cc
+	<iostream>
+	<string>
+	<stack>
+	<queue>
+	<cmath>
+	<ctype.h>
+	<stdlib.h>
+	"enum_base.h"
+	"aritmetic_base.h"
+	"postfixEval.h"
+	"d_except.h"
+
