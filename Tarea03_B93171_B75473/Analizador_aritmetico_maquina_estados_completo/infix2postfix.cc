@@ -5,6 +5,7 @@
 #include <queue>
 #include <ctype.h>
 #include <map>
+#include <regex>
 #include <stdlib.h>
 using namespace std;
 #include "enum_base.h"
@@ -87,6 +88,7 @@ bool infix2Postfix::evaluate_int(int &i)
 
 bool infix2Postfix::resolveLex(void)
 {
+    const std::regex varPattern(R"(^\$[a-zA-Z]{1,10}(_[a-zA-Z]{1,10})?$|^\$[a-zA-Z]{1,20}$)");
     bool salida = false;
     int i = 0;
     while (!t_infixExpression.empty())
@@ -219,12 +221,13 @@ bool infix2Postfix::resolveLex(void)
             break;
         }
 
+        // Dentro de tu función resolveLex() o donde estés manejando la captura de variables:
         case '$':
         {
             // Es una variable
             std::string variableName;
             ++i; // Avanzar al siguiente carácter después del $
-            while (i < infixExpression.length() && (isalnum(infixExpression[i]) || infixExpression[i] == '_'))
+            while (i < infixExpression.length() && (isalnum(infixExpression[i])))
             {
                 variableName += infixExpression[i];
                 ++i;
@@ -232,6 +235,13 @@ bool infix2Postfix::resolveLex(void)
             if (variableName.empty())
             {
                 // Error: nombre de variable vacío después de $
+                return false;
+            }
+
+            // Validar el nombre de la variable usando la expresión regular
+            if (!std::regex_match(variableName, varPattern))
+            {
+                // Error: nombre de variable no válido
                 return false;
             }
 
@@ -255,9 +265,9 @@ bool infix2Postfix::resolveLex(void)
                 // Guardar el valor numérico en el mapa
                 float numericValue = std::stof(numberValue); // Convertir el string a float
                 variables[variableName] = numericValue;
-
-                if (!evaluate_int(i))
-                    i++;
+                
+                t_infixExpression.push(token_numero);
+                // No necesitas llamar evaluate_int(i) aquí si no estás evaluando enteros específicamente
             }
             else
             {
