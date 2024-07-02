@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1719895228 source:c:\users\luis nm\desktop\new_attempt\grand_new_attempt\main.cpp
+	<iostream>
+	<string>
+	<map>
+	<stack>
+	<sstream>
+	<cmath>
+	<cctype>
+	<stdexcept>
+	<regex>
+
