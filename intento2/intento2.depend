@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1719868489 source:c:\users\luis nm\desktop\intento\intento2\main.cpp
+1719941952 source:c:\users\luis nm\desktop\intento\intento2\main.cpp
 	<iostream>
 	<vector>
 	<string>
@@ -7,13 +7,13 @@
 	"functions.h"
 	"test_gauss_jordan.h"
 
-1719868807 c:\users\luis nm\desktop\intento\intento2\functions.h
+1719942179 c:\users\luis nm\desktop\intento\intento2\functions.h
 	<vector>
 	<string>
 	<map>
 	"functions.cpp"
 
-1719868645 c:\users\luis nm\desktop\intento\intento2\functions.cpp
+1719942343 c:\users\luis nm\desktop\intento\intento2\functions.cpp
 	"functions.h"
 	<iostream>
 	<string>
@@ -24,11 +24,12 @@
 	<cctype>
 	<stdexcept>
 	<regex>
+	<unordered_map>
 
-1719868827 c:\users\luis nm\desktop\intento\intento2\test_gauss_jordan.h
+1719941944 c:\users\luis nm\desktop\intento\intento2\test_gauss_jordan.h
 	"test_gauss_jordan.cpp"
 
-1719868548 c:\users\luis nm\desktop\intento\intento2\test_gauss_jordan.cpp
+1719941932 c:\users\luis nm\desktop\intento\intento2\test_gauss_jordan.cpp
 	"test_gauss_jordan.h"
 	<iostream>
 	<cmath>
